@@ -93,14 +93,24 @@ body {
 }
 
 .menu-items a:hover {
-  color: #117964;
+  color: #0d418f;
+  font-weight: bold;
   transition: color 0.3s ease-in-out;
+  text-decoration: underline;
 }
 
 .logo {
   order: 1;
   font-size: 2.3rem;
   margin-bottom: 0.5rem;
+  color: rgb(25, 82, 113);
+  
+
+}
+
+.logo:hover{
+  cursor: pointer;
+text-decoration: underline;
 }
 
 /* ............//// Showcase styling ////......... */
@@ -247,6 +257,7 @@ body {
 .img-content a {
   font-size: 1.2rem;
 }
+
 
 .img-container::after {
   content: "";
